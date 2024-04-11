@@ -276,12 +276,35 @@ a:hover {
   .logo {
     margin-bottom: 48px;
   }
-  .title {
-    margin-bottom: 34px;
-    font-size: 43px;
+  .top-title{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', Helvetica, Arial, serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1;
+    color: black;
+  
   }
-  .progress {
-    margin-bottom: 50px;
+  .title {
+    margin-bottom: 0px;
+    font-family: 'Alegreya', Helvetica, Arial, serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -2.5px;
+    color: black;
+    
+  }
+  
+  .progress__text_{
+  
+    padding-top: 30px;
+    font-family: 'Alegreya', Helvetica, Arial, serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1;
+    color: black;
   }
   .about {
     text-align: center;
